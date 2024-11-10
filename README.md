@@ -1,1 +1,17 @@
-# FichamentoArtigoSoftwareTesting
+# Software Testing of Generative AI Systems:Challenges and Opportunities
+
+A. Aleti, "Software Testing of Generative AI Systems: Challenges and Opportunities," 2023 IEEE/ACM International Conference on Software Engineering: Future of Software Engineering (ICSE-FoSE), Melbourne, Australia, 2023, pp. 4-14, doi: 10.1109/ICSE-FoSE59343.2023.00009. 
+
+# 1.Fichamento de Conteúdo:
+
+Este artigo aborda os desafios únicos para o teste de software apresentados por sistemas de inteligência artificial generativa (GenAI), que são fundamentalmente diferentes de softwares tradicionais. O autor discute que os métodos convencionais de teste são muitas vezes insuficientes para avaliar esses sistemas, que produzem saídas criativas e variadas, complicando a definição de um “oráculo de teste” — ou seja, uma referência confiável para julgar a correção das respostas geradas. Em GenAI, o problema do oráculo ocorre porque as respostas não têm uma única “verdade” para comparação; elas são subjetivas e dependem do contexto, o que torna difícil determinar se uma saída é correta ou apropriada.
+
+O artigo analisa abordagens que podem ajudar a mitigar esses desafios, destacando duas frentes principais: (1) aprendizado de oráculos específicos para GenAI e (2) medidas de adequação de conjuntos de teste para cobrir a diversidade de cenários e detectar possíveis vieses nas saídas geradas. O autor sugere que um conjunto de testes adequado deve abranger uma ampla gama de cenários e ser sensível a vieses, permitindo identificar situações em que o sistema gera respostas enviesadas ou inapropriadas, o que é crucial em contextos como saúde e finanças, onde erros podem ter consequências graves.
+
+Entre as técnicas de teste discutidas estão os **testes metamórficos**, que verificam se o sistema mantém o comportamento esperado sob variações de entrada (exemplo: uma imagem levemente mais clara deve ser reconhecida da mesma forma que a original). Testes diferenciais também são mencionados, onde saídas de sistemas similares são comparadas para identificar inconsistências. Contudo, estas técnicas apresentam limitações, já que muitas vezes as relações metamórficas não se aplicam a todos os tipos de entrada, e os testes diferenciais não cobrem adequadamente a diversidade das saídas possíveis.
+
+Outra técnica abordada é o uso de benchmarks estáticos, que envolvem criar perguntas ou cenários de teste manualmente. Essa abordagem é limitada pela quantidade de esforço manual necessária e pelos riscos de contaminação dos dados (respostas presentes nos dados de treinamento), o que pode gerar uma avaliação incorretamente alta do modelo.
+
+Para melhorar a avaliação da adequação dos testes em GenAI, o autor propõe o uso das **métricas de Test suite Instance Space Adequacy (TISA)**. Esta abordagem visa medir a qualidade de um conjunto de testes em termos de diversidade e cobertura, representando os casos de teste em um espaço bidimensional que facilita a identificação de lacunas na cobertura de testes e a falta de diversidade. Isso permite verificar se o conjunto de testes cobre adequadamente o espaço de variabilidade do modelo e se ele detecta tipos diversos de erros.
+
+O autor conclui que, à medida que sistemas GenAI avançam para áreas críticas, é essencial desenvolver novos métodos de teste que considerem a natureza criativa e a imprevisibilidade dessas tecnologias. O uso de modelos de oráculo treinados para identificar erros, aliados a métricas de adequação como o TISA, representa uma direção promissora para aumentar a segurança e a confiabilidade desses sistemas.
