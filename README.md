@@ -28,6 +28,6 @@ Modelos de linguagem extensivos treinados em grandes volumes de dados textuais p
 
 "Automated testing of AI systems has been significantly researched, with an exponential increase in the number of papers in the last few years” (Página 6, IV - AUTOMATED TESTING OF GENAI SYSTEM)
 
-“As GenAI systems continue to permeate various domains,from creative content generation to complex decision-making,ensuring their quality and correctness is of paramount importance” (Página 9, VII - Conclusão
+“As GenAI systems continue to permeate various domains,from creative content generation to complex decision-making,ensuring their quality and correctness is of paramount importance” (Página 9, VII - Conclusão)
 
 
