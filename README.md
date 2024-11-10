@@ -8,3 +8,17 @@ O artigo aborda os desafios singulares para o **teste de software** apresentados
 
 # 2.Fichamento de Bibliográfico:
 
+
+**.GenAI (Inteligência Artificial Generativa):** Subconjunto da inteligência artificial que se concentra em criar novos conteúdos, como textos, imagens ou músicas, em vez de apenas classificar ou interpretar dados existentes. Utiliza modelos complexos baseados em redes neurais para gerar informações a partir de padrões aprendidos nos dados de treinamento. (Página 1)
+
+**.LLMs (Large Language Models)**
+Modelos de linguagem extensivos treinados em grandes volumes de dados textuais para aprender a prever e gerar linguagem humana.
+ Baseados em arquiteturas de transformadores, esses modelos, como GPT (Generative Pretrained Transformer) e BERT (Bidirectional Encoder Representations from Transformers), são capazes de entender e produzir textos em diversos contextos. (Página 2)
+
+**.Wikidata:** Base de dados de conhecimento colaborativa e gratuita que estrutura informações em forma de dados e é mantida pela comunidade. (Página 4)
+
+**.Instance Space (Espaço de Instâncias)**: Representação gráfica ou dimensional de todos os cenários ou casos de teste possíveis que um sistema pode encontrar. Utilizado para analisar a diversidade e cobertura de testes, garantindo que o conjunto de testes explore várias condições e características de entradas. (Página 4)
+
+**.Test suite Instance Space Adequacy (TISA)**: Métrica que mede a qualidade e adequação de um conjunto de testes com base na diversidade e cobertura das instâncias de teste. (Página 9)
+
+
