@@ -21,4 +21,13 @@ Modelos de linguagem extensivos treinados em grandes volumes de dados textuais p
 
 **.Test suite Instance Space Adequacy (TISA)**: Métrica que mede a qualidade e adequação de um conjunto de testes com base na diversidade e cobertura das instâncias de teste. (Página 9)
 
+# 3.Fichamento de Citações:
+
+
+“GenAI, while being a relatively new technology, it has already see a myriad of applications. For example, at the start of the pandemic, Allen AI compiled the CORD-19 dataset [91] with the objective of aiding public health experts in effectively navigating the extensive array of COVID-19 research papers that rapidly emerged. Following this, NLPservices like Amazon Kendra were employed to streamline the organization of research insights related to COVID-19” (Página 6, III - GENAI SYSTEMS)
+
+"Automated testing of AI systems has been significantly researched, with an exponential increase in the number of papers in the last few years” (Página 6, IV - AUTOMATED TESTING OF GENAI SYSTEM)
+
+“As GenAI systems continue to permeate various domains,from creative content generation to complex decision-making,ensuring their quality and correctness is of paramount importance” (Página 9, VII - Conclusão
+
 
